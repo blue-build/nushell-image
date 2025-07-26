@@ -2,7 +2,7 @@
 # build separate images for each module in the repo
 
 # version to be tagged with `default` and used by BlueBuild modules
-const DEFAULT_VERSION = "0.99.1"
+const DEFAULT_VERSION = "0.106.0"
 
 # architectures to build and the corresponding download arch string
 const BUILD_ARCHS = [
