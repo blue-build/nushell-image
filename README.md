@@ -4,7 +4,7 @@ This repository builds plain OCI images from the [Nushell's GitHub releases](htt
 
 ## Details
 
--   The images are built once per week on Sunday from the `x86_64-unknown-linux-gnu` version.
+-   The images are built once per week on Sunday from the `unknown-linux-musl` version.
 -   Every image is tagged with the corresponding Nushell version, but the latest version also gets the `latest` tag (beware of breaking changes).
 -   Each image includes the full contents of the release `.tar.gz` in the `/nu/` directory.
 -   The images are built with a Nushell script: [`build.nu`](./build.nu).
