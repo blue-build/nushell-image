@@ -9,7 +9,7 @@ on:
   merge_group:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 0" # build once a week on sunday at 00:00
+    - cron: "23 0 * * 0" # Sundays at 00:23 UTC
 
 jobs:
   build-individual:
